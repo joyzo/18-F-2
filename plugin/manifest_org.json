@@ -1,0 +1,32 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "条件付き必須入力チェックプラグイン",
+        "en": "Required input check check plug-in",
+        "zh": "Required input check check plug-in"
+    },
+    "description": {
+        "ja": "指定したフィールドに値が入っている際に対のフィールドに値が入っているかをチェックするプラグインです。",
+        "en": "This plug-in will check that contains the value to a pair of field when that contains the value to the specified field.",
+        "zh": "This plug-in will check that contains the value to a pair of field when that contains the value to the specified field."
+    },
+    "icon": "image/check.png",
+    "desktop": {
+        "js": [
+            "js/desktop.js"
+        ]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "js/config.js"
+        ],
+        "css": [
+            "css/51-us-default.css"
+        ],
+        "required_params": ["field-1", "require-field-1"]
+    }
+}
