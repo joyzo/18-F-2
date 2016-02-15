@@ -37,6 +37,6 @@
     // 登録・更新イベント(新規レコード、編集レコード、一覧上の編集レコード)
     kintone.events.on(['app.record.create.submit',
                        'app.record.edit.submit',
-                       'app.record.index.edit.submit'], checkRequire);
+                       'app.record.index.edit.submit'], checkRequire(event));
 
 })(kintone.$PLUGIN_ID);
