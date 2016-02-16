@@ -14,9 +14,18 @@
     },
     "icon": "image/check.png",
     "desktop": {
-        //PC用カスタマイズファイルを指定
+        "js": [
+            
+        ]
     },
     "config": {
-        //設定画面用カスタマイズファイルを作成
+        "html":
+        "js": [
+
+        ],
+        "css": [
+
+        ],
+        "required_params":
     }
 }

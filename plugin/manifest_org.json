@@ -25,7 +25,8 @@
             "js/config.js"
         ],
         "css": [
-            "css/51-us-default.css"
+            "css/51-us-default.css",
+            "css/config.css"
         ],
         "required_params": ["field-1", "require-field-1"]
     }
